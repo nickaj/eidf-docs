@@ -38,14 +38,15 @@ nav:
     - "EIDF Web Portal": access/project.md
     - "Virtual Desktop Interface": access/virtualmachines-vdi.md
   - "Computing Services":
-    - "Virtual Desktops":
+    - "Virtual Machines":
       - "Overview": services/virtualmachines/index.md
       - "QuickStart": services/virtualmachines/quickstart.md
       - "Managing VMs": services/virtualmachines/docs.md
       - "Virtual Desktop Interface": access/virtualmachines-vdi.md
       - "Shared Filesystem": services/virtualmachines/sharedfs.md
       - "SSH Access to VMs": access/ssh.md
-      - "VM Flavours": services/virtualmachines/flavours.md
+      - "Hardware": services/virtualmachines/hardware.md
+      - "Flavours": services/virtualmachines/flavours.md
       - "Policies": services/virtualmachines/policies.md
     - "Ultra2":
       - "Overview": services/ultra2/access.md

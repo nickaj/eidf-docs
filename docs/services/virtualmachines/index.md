@@ -1,6 +1,6 @@
 # Overview
 
-The EIDF Virtual Machine Service (VMS) is one of the underlying infrastructure components upon which the EIDF Data Science Cloud (DSC) is built.
+The EIDF Virtual Machine Service (VMS) is one of the underlying infrastructure components upon which the EIDF Data Science Cloud (DSC) is built. It hosts both user and infrastructure Virtual Machines (VMs).
 
 The service currently has a mixture of [hardware](hardware.md) node types which host VMs of various [flavours](flavours.md):
 
@@ -8,8 +8,10 @@ The service currently has a mixture of [hardware](hardware.md) node types which 
 
 Users should have an EIDF account - [EIDF Accounts](../../access/project.md).
 
-Project Leads will be able to have access to the DSC added to their project during the project application process or through a request to the EIDF helpdesk.
+Project Leads will be able to have the VMS added to their project during the project application process or through a request to the EIDF helpdesk.
 
-## Additional Service Policy Information
+Access to user VMs is avaiable via [command line SSH](../../access/ssh.md), or [Virtual Desktop Inferface (VDI)](../../access/virtualmachines-vdi.md) via a browser.
 
-Additional information on service policies can be found [here](policies.md).
+## Service Policy Information
+
+Important information on service policies can be found [here](policies.md).

@@ -106,7 +106,7 @@ Please contact the helpdesk if sudo permission management is required but is not
 
 ## First login
 
-A new user account must reset the password before they can log in for the first time.
+Users *must* set a password on a new account before they can log in via the [VDI](../../access/virtualmachines-vdi.md), this restriction does not apply to command line SSH login.
 To do this:
 
 1. The user can log into the [Portal](https://portal.eidf.ac.uk) and select their project from the 'Projects' drop down.

@@ -1,13 +1,9 @@
 # Quickstart
 
-Projects using the Virtual Desktop cloud service are accessed via the
-[EIDF Portal](https://portal.eidf.ac.uk/).
+Projects using the Virtual Machine Service are accessed via the [EIDF Portal](https://portal.eidf.ac.uk/).
 
-Authentication is provided by SAFE, so if you do not have an active web browser session in SAFE,
-you will be redirected to the [SAFE log on page](https://safe.epcc.ed.ac.uk).
-If you do not have a SAFE account follow the instructions in the
-[SAFE documentation](https://epcced.github.io/safe-docs/safe-for-users/)
-how to register and receive your password.
+Authentication is provided by SAFE, so if you do not have an active web browser session in SAFE, you will be redirected to the [SAFE log on page](https://safe.epcc.ed.ac.uk).
+If you do not have a SAFE account follow the instructions in the [SAFE documentation](https://epcced.github.io/safe-docs/safe-for-users/) how to register and receive your password.
 
 ## Accessing your projects
 
@@ -31,21 +27,17 @@ Now you have to wait for your PI or project manager to accept your request to jo
 
 1. Select a project and view your user accounts on the project page.
 
-1. Click on an account name to view details of the VMs that are you allowed to access
-   with this account, and to change the password for this account.
+1. Click on an account name to view details of the VMs that are you allowed to access with this account, and to change the password for this account.
 
-1. Before you log in for the first time with a new user account, you must change your password as described
-   [below](../../services/virtualmachines/quickstart.md#set-or-change-the-password-for-a-user-account).
+1. Before you log in via the [VDI](../../access/virtualmachines-vdi.md#navigating-the-eidf-vdi) for the first time with a new user account, you must [set a password](../../services/virtualmachines/quickstart.md#set-or-change-the-password-for-a-user-account).
 
-1. Follow the link to the Guacamole login or
-   log in directly at [https://eidf-vdi.epcc.ed.ac.uk/vdi/](https://eidf-vdi.epcc.ed.ac.uk/vdi/).
-   Please see the [VDI](../../access/virtualmachines-vdi.md#navigating-the-eidf-vdi) guide for more information.
+1. Follow the link to the VDI login or log in directly at [https://eidf-vdi.epcc.ed.ac.uk/vdi/](https://eidf-vdi.epcc.ed.ac.uk/vdi/).
+   Please see the [VDI guide](../../access/virtualmachines-vdi.md#navigating-the-eidf-vdi) for more information.
 
-1. You can also log in via the [EIDF Gateway Jump Host](https://epcced.github.io/eidf-docs/access/ssh/)
-   if this is available in your project.
+1. You can also log in via [command line SSH](../../access/ssh.md) via the if this is available in your project.
 
 !!! warning
-    You must set a password for a new account before you log in for the first time.
+    You must set a password for a new account before you log in for the first time via the VDI.
 
 ## Set or change the password for a user account
 
@@ -65,4 +57,4 @@ There may be a short delay while the change is implemented before the new passwo
 
 [Virtual Desktop Interface](../../access/virtualmachines-vdi.md): Working with the VDI interface.
 
-[EIDF Gateway](../../access/ssh.md): SSH access to VMs via the EIDF SSH Gateway jump host.
+[Command Line SSH](../../access/ssh.md): SSH access to VMs via the EIDF SSH Gateway jump host.
