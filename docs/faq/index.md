@@ -35,3 +35,10 @@ Note that for the majority of users, gateway_username and vm_username are the sa
 I already have an EIDF username for project Y, can I use this for project X?
 
 We mandate that every username must be unique across our estate. EPCC machines including EIDF services such as the SDF and DSC VMs, and HPC services such as Cirrus require you to create a new machine account with a unique username for each project you work on. Usernames cannot be used on multiple projects, even if the previous project has finished. However, some projects span multiple machines so you may be able to login to multiple machines with the same username.
+
+### I'm used to SAFE, how do I add users in EIDF?
+
+There can be some confusion for users and PI's who have been used to using EPCCs [SAFE](https://safe.epcc.ed.ac.uk) system. Both the EIDF Portal and SAFE are interfaces to the same account and machine management systems.
+
+- In SAFE users request to join a project, request an account on a machine and a preferred username in one step. This is because most HPC projects have a low number of machines available (often just one) and sudo permission can never be given. This simplifies things for the PI.
+- In the EIDF Portal, users request to join a project and it is up to the PI to approve that request, then create the account for the user and map it to the relevant machine, plus make a choice over sudo permission for VMs. This is because the variety of machines and machine types in EIDF is much greater, some projects have tens of VMs, plus access to the Cerebras and GPU clusters, which the PI may wish to make available only to certain users.

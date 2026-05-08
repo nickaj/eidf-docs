@@ -44,7 +44,9 @@ nav:
     - "Contact": overview/contacts.md
   - "Service Access":
     - "Web and SSH": access/index.md
-    - "EIDF Web Portal": access/project.md
+    - "EIDF Web Portal":
+      - "Overview": access/portal/index.md
+      - "Applications": access/portal/application.md
     - "Virtual Desktop Interface": access/virtualmachines-vdi.md
   - "Storage in the EIDF":
     - "Overview": storage/overview.md
