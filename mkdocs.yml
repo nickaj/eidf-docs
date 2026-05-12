@@ -47,6 +47,7 @@ nav:
     - "EIDF Web Portal":
       - "Overview": access/portal/index.md
       - "Applications": access/portal/application.md
+      - "FAQ for SAFE users": access/portal/helpforsafeusers.md
     - "Virtual Desktop Interface": access/virtualmachines-vdi.md
   - "Storage in the EIDF":
     - "Overview": storage/overview.md
